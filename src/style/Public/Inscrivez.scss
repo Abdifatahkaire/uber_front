@@ -1,0 +1,155 @@
+
+.Inscrirez{
+
+    display: flex;
+    padding: 50px 0 140px 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: lighten(gray, 45%);
+
+    &--col1{
+        flex: 1;
+       display: flex;
+    }
+    &--col2{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        border: solid 0.5px gray;
+        background-color: lighten(gray, 48%);
+
+        &--header{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            padding: 5% 0;
+            border-bottom: 0.5px solid gray;
+             
+            & span{
+                font-family: Helvetica ,Arial, sans-serif;
+                font-size: 30px;
+            }
+        }
+
+        &--form{
+            display: flex;
+            flex-direction: column;
+            width: 90%;
+            padding: 5%;
+
+            &--nom{
+               
+                display: flex;
+                flex-direction: column;
+                & label{
+                  flex: 1;
+                  margin-bottom: 1%;
+                  
+                }
+                & input{
+                    flex: 1;
+                    border: 1px solid gray;
+                    border-radius: 4px;
+                    margin-bottom: 3%;
+                    padding: 5px;
+                }
+            }
+
+            &--tel{
+                
+                display: flex;
+                flex-direction: column;
+                & label{
+                    flex: 1;
+                    margin-bottom: 1%;
+                  }
+                  & input{
+                      flex: 1;
+                      border: 1px solid gray;
+                      border-radius: 4px;
+                      margin-bottom: 3%;
+                      padding: 5px;
+                  }
+            }
+
+            &--type{
+                
+                display: flex;
+                flex-direction: column;
+                & label{
+                    flex: 1;
+                    margin-bottom: 1%;
+                  }
+                  & select{
+                      flex: 1;
+                      border: 1px solid gray;
+                      border-radius: 4px;
+                      margin-bottom: 3%;
+                      background-color: white;
+                      padding: 5px;
+                  }
+            }
+
+            &--email{
+                
+                display: flex;
+                flex-direction: column;
+                & label{
+                    flex: 1;
+                    margin-bottom: 1%;
+                  }
+                  & input{
+                      flex: 1;
+                      border: 1px solid gray;
+                      border-radius: 4px;
+                      
+                      padding: 5px;
+                  }
+            }
+
+            &--validation--email{
+                
+                background-color: lighten(red, 30%);
+                border: 1px solid red;
+                border-radius: 4px;
+               
+            }
+
+            &--motpasse{
+                margin-top: 10px;
+                display: flex;
+                flex-direction: column;
+                & label{
+                    flex: 1;
+                    margin-bottom: 1%;
+                  }
+                  & input{
+                      flex: 1;
+                      border: 1px solid gray;
+                      border-radius: 4px;
+                      margin-bottom: 5%;
+                      padding: 5px;
+                  }
+            }
+
+            &--submit{
+              
+                display: flex;
+                flex-direction: column;
+                
+                  & button{
+                      background-color: #e83e80;
+                      color: white;
+                      border: 1px solid #e83e80;
+                      border-radius: 4px;
+                      padding: 5px;
+                  }
+            }
+
+        }
+    }
+    &--col3{
+        flex: 1;
+        display: flex; 
+    }
+}

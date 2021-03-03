@@ -1,0 +1,94 @@
+.connecter{
+
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 50px 0 280px 0;
+    background-color: lighten(gray, 45%);
+
+    &--col1{
+       flex: 1;
+    }
+
+    &--col2{
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      border: 0.5px solid gray;
+      background-color: lighten(gray, 48%);
+
+      &--header{
+        width: 100%;
+        border-bottom: 0.5px solid gray;
+        display: flex;
+        justify-content: center;
+        padding: 5% 0;
+
+
+        & span{
+            font-size: 30px;
+            font-family: Helvetica ,Arial, sans-serif;
+        }
+      }
+
+      &--form{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        padding: 5%;
+
+        &--email{
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+           
+          & label{
+           margin-bottom: 1%;
+          }
+
+          & input{
+            padding: 5px;
+            border-radius: 8px;
+            margin-bottom: 5%;
+            border: 1px solid gray;
+          }
+
+        }
+        &--motpasse{
+         width: 100%;
+          display: flex;
+          flex-direction: column;
+
+          & label{
+            margin-bottom: 1%;
+          }
+
+          & input{
+            padding: 5px;
+            border-radius: 8px;
+            margin-bottom: 5%;
+            border: 1px solid gray;
+          }
+
+        }
+        &--submit{
+          flex: 1;
+          display: flex;
+          
+
+          & button{
+              flex: 1;
+              padding: 5px;
+            border-radius: 4px;
+            background-color: #e83e80;
+            color: white;
+            border: 1px solid #e83e80;
+          }
+        }
+      }
+
+    }
+
+    &--col3{
+       flex: 1;
+    }
+}

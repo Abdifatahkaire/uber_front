@@ -1,0 +1,175 @@
+.edit--profil{
+
+    display: flex;
+     
+    margin-top: 90px;
+    margin-left: 290px;
+    border: 1px solid white;
+    border-radius: 4px;
+    box-shadow: -0.1px 0 1px 0 gray;
+    background-color: lighten(gray, 48%);
+
+  &--col1{ 
+      flex: 2;
+      display: flex;
+      flex-direction: column;
+      
+    &--titre{
+        font-family: Helvetica ,Arial, sans-serif;
+        font-size: 30px;
+        padding: 5% 0 5% 5%;
+
+    }
+
+    &--container{
+
+        
+        display: flex;
+        flex-direction: column;
+        
+        background-color: lighten(gray, 48%);
+
+        &--header{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            
+            
+             
+            & span{
+                font-family: Helvetica ,Arial, sans-serif;
+                font-size: 30px;
+            }
+        }
+
+        &--form{
+            display: flex;
+            flex-direction: column;
+            width: 90%;
+            padding: 5%;
+
+            &--nom{
+               
+                display: flex;
+                flex-direction: column;
+                & label{
+                  flex: 1;
+                  margin-bottom: 1%;
+                  
+                }
+                & input{
+                    flex: 1;
+                    border: 1px solid gray;
+                    border-radius: 4px;
+                    margin-bottom: 3%;
+                    padding: 5px;
+                }
+            }
+
+            &--tel{
+                
+                display: flex;
+                flex-direction: column;
+                & label{
+                    flex: 1;
+                    margin-bottom: 1%;
+                  }
+                  & input{
+                      flex: 1;
+                      border: 1px solid gray;
+                      border-radius: 4px;
+                      margin-bottom: 3%;
+                      padding: 5px;
+                  }
+            }
+
+            &--type{
+                
+                display: flex;
+                flex-direction: column;
+                & label{
+                    flex: 1;
+                    margin-bottom: 1%;
+                  }
+                  & select{
+                      flex: 1;
+                      border: 1px solid gray;
+                      border-radius: 4px;
+                      margin-bottom: 3%;
+                      background-color: white;
+                      padding: 5px;
+                  }
+            }
+
+            &--email{
+                
+                display: flex;
+                flex-direction: column;
+                & label{
+                    flex: 1;
+                    margin-bottom: 1%;
+                  }
+                  & input{
+                      flex: 1;
+                      border: 1px solid gray;
+                      border-radius: 4px;
+                      
+                      padding: 5px;
+                  }
+            }
+
+            &--validation--email{
+                
+                background-color: lighten(red, 30%);
+                border: 1px solid red;
+                border-radius: 4px;
+               
+            }
+
+            &--motpasse{
+                margin-top: 10px;
+                display: flex;
+                flex-direction: column;
+                & label{
+                    flex: 1;
+                    margin-bottom: 1%;
+                  }
+                  & input{
+                      flex: 1;
+                      border: 1px solid gray;
+                      border-radius: 4px;
+                      margin-bottom: 5%;
+                      padding: 5px;
+                  }
+            }
+
+            &--submit{
+              
+                display: flex;
+                flex-direction: column;
+                
+                  & button{
+                      background-color: #e83e80;
+                      color: white;
+                      border: 1px solid #e83e80;
+                      border-radius: 4px;
+                      padding: 5px;
+                  }
+            }
+
+        }
+
+    }
+}
+
+
+
+&--col2{
+  flex: 1;
+ 
+}
+
+
+
+}
